@@ -1,3 +1,5 @@
+import { site } from "@/lib/data";
+import { FacebookIcon } from "./FacebookIcon";
 import { SunLogo } from "./SunLogo";
 
 export function Header() {
@@ -16,6 +18,9 @@ export function Header() {
           <a href="#reviews">Reviews</a>
           <a href="#trays">Party packages</a>
           <a href="#visit">Visit</a>
+          <a className="nav-fb" href={site.facebook} target="_blank" rel="noopener" aria-label="Apo on Facebook" title="Follow us on Facebook">
+            <FacebookIcon />
+          </a>
           <a className="btn btn-mango" href="#order">Order online</a>
         </nav>
       </div>

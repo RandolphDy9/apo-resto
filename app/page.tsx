@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Favourites } from "@/components/Favourites";
 import { Menu } from "@/components/Menu";
+import { FacebookBand } from "@/components/FacebookBand";
 import { Reviews } from "@/components/Reviews";
 import { Trays } from "@/components/Trays";
 import { Order } from "@/components/Order";
@@ -36,6 +37,7 @@ export default function Home() {
         <Hero />
         <Favourites />
         <Menu />
+        <FacebookBand />
         <Reviews />
         <Trays />
         <Order />
